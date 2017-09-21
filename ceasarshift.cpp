@@ -11,10 +11,10 @@ int main(int argc, char *argv[], char **env)
 
         int shift = atoi(argv[1]);
 
-        while (!cin.eof())//pass file from command line and keep going until end of file
+        while (!cin.eof())
         {
 
-                c = cin.get();//get character to processes
+                c = cin.get();
                 if (isalpha(c))
                 {
                         if (isupper(c)) c = tolower(c);
